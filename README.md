@@ -30,11 +30,11 @@ Corosync предназначен для реализации функциона
 
 Пришлите скриншот рабочей конфигурации и состояния сервиса для каждого нода.
 
-![103-01](https://github.com/LipinRoman/10.1/blob/main/img/103-01.png)
+![103-01](https://github.com/LipinRoman/10.3/blob/main/img/103-01.png)
 
-![103-02](https://github.com/LipinRoman/10.1/blob/main/img/103-02.png)
+![103-02](https://github.com/LipinRoman/10.3/blob/main/img/103-02.png)
 
-![103-03](https://github.com/LipinRoman/10.1/blob/main/img/103-03.png)
+![103-03](https://github.com/LipinRoman/10.3/blob/main/img/103-03.png)
 
 Задания со звёздочкой*
 
