@@ -38,7 +38,41 @@ Corosync предназначен для реализации функциона
 
 конфигурация Corosync:
 
-![103-04](https://github.com/LipinRoman/10.3/blob/main/img/103-04.png)
+```
+totem {
+    version: 2
+    cluster_name: topcluster
+    transport: knet
+    crypto_cipher: aes256
+    crypto_hash: sha256
+}
+
+nodelist {
+    node {
+        ring0_addr: 192.168.11.230
+        name: 192.168.11.230
+        nodeid: 1
+    }
+
+    node {
+        ring0_addr: 192.168.11.172
+        name: 192.168.11.172
+        nodeid: 2
+    }
+}
+
+quorum {
+    provider: corosync_votequorum
+    two_node: 1
+}
+
+logging {
+    to_logfile: yes
+    logfile: /var/log/corosync/corosync.log
+    to_syslog: yes
+    timestamp: on
+}
+```
 
 Задания со звёздочкой*
 
